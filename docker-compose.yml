@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  nextjs-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3440:3440"
+    environment:
+      - NODE_ENV=production
+    volumes:
+      - .:/app
+    command: npm run dev

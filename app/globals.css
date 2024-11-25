@@ -4,7 +4,7 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 360 77% 50%;
     --foreground: 0 0% 3.9%;
 
     --card: 0 0% 100%;
@@ -36,7 +36,7 @@
   }
 
   .dark {
-    --background: 0 0% 3.9%;
+    --background: 217, 33%, 16%;
     --foreground: 0 0% 98%;
 
     --card: 0 0% 3.9%;
@@ -83,7 +83,6 @@
 }
 
 @layer utilities {
-
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
     display: none;
@@ -96,4 +95,47 @@
     scrollbar-width: none;
     /* Firefox */
   }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.8s ease-in-out forwards;
+}
+
+.animate-fade-down {
+  animation: fade-down 0.6s ease-in-out forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in 0.6s ease-in-out forwards;
 }
