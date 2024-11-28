@@ -34,9 +34,12 @@ const TryCartElSection = () => {
               communication. Start working more efficiently today!
             </p>
             <div className="pt-4">
-              <button className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all duration-300 transform hover:translate-y-[-2px] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#1a1f2e]">
+              <a
+                href="http://100.80.37.91:3442" // Ganti "/your-destination" dengan URL yang sesuai
+                className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all duration-300 transform hover:translate-y-[-2px] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#1a1f2e]"
+              >
                 Try our platform!
-              </button>
+              </a>
             </div>
           </div>
         </div>

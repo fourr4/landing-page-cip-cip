@@ -98,7 +98,7 @@ const HeroSection: React.FC = () => {
               className="group bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-6 text-lg rounded-xl transform transition-all duration-300 hover:scale-105 hover:shadow-lg shadow-md"
             >
               <Link
-                href="#"
+                href="http://100.80.37.91:3442/"
                 className="flex items-center gap-2"
                 aria-label="Try our platform"
               >

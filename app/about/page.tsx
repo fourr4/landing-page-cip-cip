@@ -31,7 +31,7 @@ const teamMembers: TeamMember[] = [
   {
     role: "UI/UX Designer",
     name: "Fathika Afrine A.",
-    image: "/inek.png"
+    image: "/IMG_8606.JPG"
   },
 ];
 

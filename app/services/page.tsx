@@ -23,31 +23,6 @@ const ServicesPage = () => {
           </Balancer>
         </p>
 
-        <div className="mt-6 flex rounded-full bg-slate-800 p-1 space-x-2">
-          <Button
-            variant={billingPeriod === "monthly" ? "default" : "ghost"}
-            onClick={() => setBillingPeriod("monthly")}
-            className={`relative rounded-full px-8 transition-colors duration-300 ${
-              billingPeriod === "monthly"
-                ? "bg-slate-900 text-white"
-                : "hover:bg-[#FA7513] hover:text-white"
-            }`}
-          >
-            Monthly
-          </Button>
-          <Button
-            variant={billingPeriod === "yearly" ? "default" : "ghost"}
-            onClick={() => setBillingPeriod("yearly")}
-            className={`relative rounded-full px-8 transition-colors duration-300 ${
-              billingPeriod === "yearly"
-                ? "bg-slate-900 text-white"
-                : "hover:bg-[#FA7513] hover:text-white"
-            }`}
-          >
-            Yearly
-          </Button>
-        </div>
-
         <div className="mt-8 grid w-full grid-cols-1 gap-6 md:grid-cols-2">
           {/* Starter Insights Plan */}
           <div className="flex flex-col rounded-2xl bg-slate-800 p-8 shadow-lg transform transition-transform duration-300 hover:scale-105 animate-slide-in">
