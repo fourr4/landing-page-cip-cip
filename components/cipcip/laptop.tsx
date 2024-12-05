@@ -27,7 +27,7 @@ const TryCartElSection = () => {
           {/* Right Side - CTA Content */}
           <div className="lg:w-1/2 text-center lg:text-left space-y-6">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tight text-white">
-              Try CartEl for <span className="text-[#FF4D4D]">Free</span>
+              Try ChaSA for <span className="text-[#FF4D4D]">Free</span>
             </h2>
             <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
               Get access to tools for finding clients and seamless
@@ -35,7 +35,7 @@ const TryCartElSection = () => {
             </p>
             <div className="pt-4">
               <a
-                href="http://100.80.37.91:3442" // Ganti "/your-destination" dengan URL yang sesuai
+                href="http://10.15.42.102:3442" // Ganti "/your-destination" dengan URL yang sesuai
                 className="bg-[#2563EB] hover:bg-[#1D4ED8] text-white font-semibold px-8 py-4 rounded-full text-lg transition-all duration-300 transform hover:translate-y-[-2px] focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-[#1a1f2e]"
               >
                 Try our platform!

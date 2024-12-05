@@ -66,7 +66,7 @@ export default function FeatureSection() {
         {/* Adjusted max-width here */}
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-white">
-            Key <span className="text-orange-500">features</span> of our CartEl
+            Key <span className="text-orange-500">features</span> of our ChaSA
             platform
           </h2>
         </div>

@@ -82,13 +82,14 @@ const HeroSection: React.FC = () => {
             </h3>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
               <Balancer>
-                <ColorWaveText text="CartEl Platform with chatbot automation, saves freelancers time." />
+                <ColorWaveText text="ChaSA Platform with chatbot automation, 
+saves freelancers time." />
               </Balancer>
             </h1>
             <h2 className="text-xl md:text-2xl font-semibold text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               <Balancer>
-                An innovative platform developed by our teams, featuring a
-                chatbot that searches for e-commerce analysts.
+              An innovative platform developed by our teams, featuring a chatbot that 
+              searches for e-commerce analyst.
               </Balancer>
             </h2>
           </div>
@@ -98,7 +99,7 @@ const HeroSection: React.FC = () => {
               className="group bg-gradient-to-r from-orange-400 to-orange-600 hover:from-orange-500 hover:to-orange-700 text-white px-8 py-6 text-lg rounded-xl transform transition-all duration-300 hover:scale-105 hover:shadow-lg shadow-md"
             >
               <Link
-                href="http://100.80.37.91:3442/"
+                href="http://10.15.42.102:3442"
                 className="flex items-center gap-2"
                 aria-label="Try our platform"
               >

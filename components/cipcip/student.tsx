@@ -6,16 +6,20 @@ const TalentedStudentsSection = () => {
   const achievements = [
     {
       id: 1,
-      text: "Development of a working platform used by freelancers to improve their productivity and find clients.",
+      text: "Development of an AI-powered chatbot for real-time product analysis, enabling data-driven business strategies.",
     },
     {
       id: 2,
-      text: "Successful implementation of their own freelance projects: Students not only created CartEl, they also use the platform for their own work, improving it based on real-world experience.",
+      text: "Rigorous testing in simulated environments, ensuring reliable insights for market and product analysis.",
     },
     {
       id: 3,
-      text: "Development of a working platform used by freelancers to improve their productivity and find clients.",
+      text: "Integration of adaptive learning algorithms, allowing ChaSA to improve responses based on user interactions.",
     },
+    {
+      id: 4,
+      text: "Hands-on learning for students, enhancing their skills in AI development, system design, and optimization.",
+    }
   ];
 
   return (
