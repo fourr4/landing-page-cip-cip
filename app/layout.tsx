@@ -78,7 +78,7 @@ const Nav = ({ className, children, id }: NavProps) => {
           <NavMenu />
           {/* Removed ThemeToggle */}
           <Button asChild className="hidden sm:flex">
-            <Link href="http://100.80.37.91:3442">Login</Link>
+            <Link href="http://10.15.42.102:3442/">Login</Link>
           </Button>
           <MobileNav />
         </div>
