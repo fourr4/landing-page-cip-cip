@@ -49,7 +49,7 @@ const ServicesAndTeam = () => {
               <span className="italic">corporations</span>
             </p>
             <button className="bg-[#2a2d31] px-6 py-2 rounded-md w-fit">
-              <a href="https://wa.link/57vf5z">View Services</a>
+              <a href="https://wa.link/57vf5z">Contact Us</a>
             </button>
           </div>
 
