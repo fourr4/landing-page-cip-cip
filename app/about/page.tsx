@@ -31,7 +31,7 @@ const teamMembers: TeamMember[] = [
   {
     role: "UI/UX Designer",
     name: "Fathika Afrine A.",
-    image: "/IMG_8606.JPG"
+    image: "/IMG_8606.JPG",
   },
 ];
 
@@ -48,7 +48,16 @@ const ServicesAndTeam = () => {
               <span className="text-[#ff5722]">business</span> and{" "}
               <span className="italic">corporations</span>
             </p>
-            <button className="bg-[#2a2d31] px-6 py-2 rounded-md w-fit">
+            <button
+              onClick={() =>
+                window.open(
+                  "https://wa.link/57vf5z",
+                  "_blank",
+                  "noopener,noreferrer"
+                )
+              }
+              className="bg-[#2a2d31] px-6 py-2 rounded-md w-fit text-white hover:bg-[#232527] transition"
+            >
               Contact Us
             </button>
           </div>
@@ -68,7 +77,7 @@ const ServicesAndTeam = () => {
                       className="w-full aspect-square bg-gray-300 rounded-lg object-cover"
                     />
                   )}
-                  
+
                   <div className="text-center">
                     <p className="font-medium">{member.role}</p>
                     <p className="text-sm text-gray-400">{member.name}</p>
