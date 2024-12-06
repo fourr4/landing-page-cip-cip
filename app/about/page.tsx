@@ -78,7 +78,7 @@ const ServicesAndTeam = () => {
             </div>
           </div>
 
-          {/* Contact Form */}
+          {/* Contact Form
           <div className="flex gap-12">
             <div className="flex-1">
               <h2 className="text-4xl mb-2">
@@ -104,7 +104,7 @@ const ServicesAndTeam = () => {
                 Get Started
               </button>
             </div>
-          </div>
+          </div> */}
         </div>
       </Container>
     </Section>
